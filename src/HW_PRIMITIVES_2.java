@@ -9,9 +9,7 @@ public class HW_PRIMITIVES_2 {
             bonus = 0;
         }
         int total_on_account = on_account + refill +bonus;
-        System.out.println("Бонус:");
-        System.out.println(bonus);
-        System.out.println("Итоговый счет:");
-        System.out.println(total_on_account);
+        System.out.println("Бонус:" + bonus);
+        System.out.println("Итоговый счет:" + total_on_account);
     }
 }
